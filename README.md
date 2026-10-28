@@ -1,6 +1,8 @@
 # PHOTO / MOSH
 
-A little creative destruction. A standalone photo glitch editor inspired by broken image slices and horizontal pixel smears.
+A standalone photo glitch editor with a dark interface, adjustable effects, and offline session exports.
+
+Made by [mavroul1s](https://github.com/mavroul1s) · Nikolaos Mavros.
 
 **[Open the editor](https://mavroul1s.github.io/photo-mosh/)** · [Download the HTML](https://github.com/mavroul1s/photo-mosh/raw/refs/heads/main/index.html)
 
@@ -26,7 +28,7 @@ Presets: **Slice shift**, **Signal loss**, **Chromatic**, **Pixel drift**, **Aft
 ## Downloads
 
 - **Image:** PNG, JPEG (quality 95%), or WebP (quality 95%). Original working size, or a maximum side of 2048 / 1080 pixels. Smaller photos are never upscaled. If a browser substitutes PNG for an unsupported encoder, the extension follows the actual MIME type.
-- **Everything ZIP:** `artwork` in your chosen format, `original.png`, `settings.json`, `session.html`, and a short readme. The dependency-free ZIP writer uses standard uncompressed ZIP entries with UTF-8 filenames and CRC-32 checksums.
+- **Download ZIP:** `artwork` in your chosen format, `original.png`, `settings.json`, `session.html`, and a short readme. The dependency-free ZIP writer uses standard uncompressed ZIP entries with UTF-8 filenames and CRC-32 checksums.
 - **Save HTML:** a complete offline editor containing your current source image and settings. Reopen it to continue editing. Your imported photo is embedded in that download; only share it if you want to share the photo.
 - **Settings:** export / import a validated JSON recipe to reuse on another image.
 
